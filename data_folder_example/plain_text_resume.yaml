@@ -1,141 +1,253 @@
+
 personal_information:
-  name: "solid"
-  surname: "snake"
-  date_of_birth: "12/01/1861"
-  country: "Ireland"
-  city: "Dublin"
-  zip_code: "520123"
-  address: "12 Fox road"
-  phone_prefix: "+1"
-  phone: "7819117091"
-  email: "hi@gmail.com"
-  github: "https://github.com/lol"
-  linkedin: "https://www.linkedin.com/in/thezucc/"
-  
+  name: "Wahid"
+  surname: "Malik"
+  date_of_birth: "19/01/2002"
+  country: "Pakistan"
+  city: "Rawalpindi"
+  zip_code: "46000"
+  address: "House No. 110-A, Seham, Rawalpindi"
+  phone_prefix: "+92"
+  phone: "3025159977"
+  email: "malikwahid705@gmail.com"
+  github: "https://github.com/WahidMalik/WahidMalik"
+  linkedin: "https://www.linkedin.com/in/wahid-malik-841bb5281/"
 
 education_details:
-  - education_level: "Master's Degree"
-    institution: "Bob academy"
-    field_of_study: "Bobs Engineering"
-    final_evaluation_grade: "4.0"
-    year_of_completion: "2023"
-    start_date: "2022"
-    additional_info:
-      exam:
-        Algorithms: "A"
-        Linear Algebra: "A"
-        Database Systems: "A"
-        Operating Systems: "A-"
-        Web Development: "A"
+  - education_level: "Bachelor's Degree"
+    institution: "COMSATS University Islamabad, Wah Campus"
+    field_of_study: "BSc Software Engineering"
+    final_evaluation_grade: "3.44 / 4.00"
+    year_of_completion: "2026"
+    start_date: null
+    additional_info: {}
+
+  - education_level: "FSc"
+    institution: "Fauji Foundation College, New Lalazar"
+    field_of_study: "Pre-Engineering"
+    final_evaluation_grade: null
+    year_of_completion: "2021"
+    start_date: null
+    additional_info: {}
 
 experience_details:
-  - position: "X"
-    company: "Y."
-    employment_period: "06/2019 - Present"
-    location: "San Francisco, CA"
+  - position: "Mobile Application Developer"
+    company: "Funsol Technologies"
+    employment_period: "Nov 2025 - Present"
+    location: "Islamabad, Pakistan"
     industry: "Technology"
     key_responsibilities:
-      - responsibility: "Developed web applications using React and Node.js"
-      - responsibility: "Collaborated with cross-functional teams to design and implement new features"
-      - responsibility: "Troubleshot and resolved complex software issues"
+      - "Develop, maintain, and improve Android applications from UI implementation through stable releases."
+      - "Integrate Google Ads for application monetization."
+      - "Use MVI architecture for predictable state handling and maintainable code."
+      - "Modernize existing application screens by migrating them to Jetpack Compose."
+      - "Contribute to Software Update 2026, Music App, and other utility applications."
     skills_acquired:
-      - "React"
-      - "Node.js"
-      - "Software Troubleshooting"
-  - position: "Software Developer"
-    company: "Innovatech"
-    employment_period: "06/2015 - 12/2017"
-    location: "Milan, Italy"
+      - "Kotlin"
+      - "Android Development"
+      - "Jetpack Compose"
+      - "MVI Architecture"
+      - "Google Ads Integration"
+    achievements:
+      - "Mobile Trailblazer certification, July 2026"
+      - "Standout Performance Award, September 2026"
+
+  - position: "Mobile Application Developer"
+    company: "Funsol Technologies"
+    employment_period: "Jul 2025 - Oct 2025"
+    location: "Islamabad, Pakistan"
     industry: "Technology"
     key_responsibilities:
-      - responsibility: "Developed and maintained web applications using modern technologies"
-      - responsibility: "Collaborated with UX/UI designers to enhance user experience"
-      - responsibility: "Implemented automated testing procedures to ensure code quality"
+      - "Developed and maintained Android applications."
+      - "Integrated Google Ads into applications."
+      - "Applied MVI architecture to improve code organization and scalability."
+      - "Migrated existing screens to Jetpack Compose."
     skills_acquired:
-      - "Web development"
-      - "User experience design"
-      - "Automated testing"
-  - position: "Junior Developer"
-    company: "StartUp Hub"
-    employment_period: "01/2014 - 05/2015"
-    location: "Florence, Italy"
-    industry: "Startups"
+      - "Kotlin"
+      - "Android Development"
+      - "Jetpack Compose"
+      - "MVI Architecture"
+
+  - position: "Mobile Application Developer"
+    company: "Code Techvista"
+    employment_period: "May 2024 - Sep 2024"
+    location: "Rawalpindi, Pakistan"
+    industry: "Technology"
     key_responsibilities:
-      - responsibility: "Assisted in the development of mobile applications and web platforms"
-      - responsibility: "Participated in code reviews and contributed to software design discussions"
-      - responsibility: "Resolved bugs and implemented feature enhancements"
+      - "Designed and improved Android application user interfaces."
+      - "Redesigned screens using Jetpack Compose."
+      - "Built responsive and user-friendly layouts."
+      - "Maintained consistent UI across application screens."
     skills_acquired:
-      - "Mobile app development"
-      - "Code reviews"
-      - "Bug fixing"
+      - "Android UI Development"
+      - "Kotlin"
+      - "Jetpack Compose"
+      - "Responsive UI Design"
+
 projects:
-  - name: "X"
-    description: "Y blah blah blah "
-    link: "https://github.com/haveagoodday"
+  - name: "Road Rescue"
+    description: "Final Year Project involving helmet-based biker accident detection, a 10-second cancellation countdown, automatic emergency alerts, location sharing, rescue-team notifications, ambulance assignment, driver tracking, status updates, and parent tracking of children during bike rides."
+    technologies:
+      - "Android Development"
+      - "Kotlin"
+      - "Real-Time Notifications"
+      - "Backend Integration"
+      - "Location Services"
+    link: null
 
+  - name: "Software Update 2026"
+    description: "Android utility application that helps users check for available app and system updates, built with Kotlin and Jetpack Compose."
+    technologies:
+      - "Kotlin"
+      - "Jetpack Compose"
+    link: null
 
+  - name: "Data Recovery 2026"
+    description: "Android application that scans device storage and helps users restore accidentally deleted photos, videos, audio files, and documents."
+    technologies:
+      - "Kotlin"
+      - "Jetpack Compose"
+      - "Android Storage APIs"
+    link: null
 
-achievements:
-  - name: "Employee of the Month"
-    description: "Recognized for exceptional performance and contributions to the team."
-  - name: "Hackathon Winner"
-    description: "Won first place in a national hackathon competition."
+  - name: "Photo Recovery Master"
+    description: "Photo recovery application that finds deleted pictures and allows users to preview and restore them."
+    technologies:
+      - "Kotlin"
+      - "Android Development"
+    link: null
+
+  - name: "Music App"
+    description: "Android music player for browsing, playing, and organizing songs with a Jetpack Compose interface and playback controls."
+    technologies:
+      - "Kotlin"
+      - "Jetpack Compose"
+    link: null
+
+  - name: "Islamic App"
+    description: "Islamic lifestyle application providing faith-based resources and everyday features through a readable, easy-to-navigate interface."
+    technologies:
+      - "Android Development"
+      - "Kotlin"
+    link: null
+
+  - name: "App Locker Pro"
+    description: "Android privacy and security application for locking selected apps. Related work includes Jetpack Compose UI, Hilt dependency injection, navigation, and Google sign-in and cloud-backup features."
+    technologies:
+      - "Kotlin"
+      - "Jetpack Compose"
+      - "Hilt"
+      - "Android Security"
+    link: null
+
+  - name: "AI-Powered Android Settings Search"
+    description: "Android app concept that interprets natural-language requests, identifies relevant Android settings, displays shortcut cards, and opens native system settings screens. Also saves search history."
+    technologies:
+      - "Kotlin"
+      - "Kotlin Multiplatform"
+      - "Android Intents"
+      - "AI Intent Detection"
+    link: null
+
+technical_skills:
+  programming_languages:
+    - "Kotlin"
+  frameworks_and_platforms:
+    - "Android Development"
+    - "Kotlin Multiplatform (KMP)"
+    - "Jetpack Compose"
+  architecture:
+    - "MVI Architecture"
+    - "Clean Code Structure"
+    - "Scalable App Design"
+  integrations:
+    - "Google Ads"
+    - "Backend Integration"
+    - "Real-Time Notifications"
+    - "Location Services"
+  other:
+    - "Responsive UI Design"
+    - "UI Migration to Compose"
+    - "Problem Solving"
+    - "Leadership"
+    - "Teamwork"
 
 certifications:
-  - name: "Certified Scrum Master"
-    description: "Recognized certification for proficiency in Agile methodologies and Scrum framework."
-  - name: "AWS Certified Solutions Architect"
-    description: "Certification demonstrating expertise in designing, deploying, and managing applications on AWS."
+  - name: "Mobile Application Developer"
+    issuer: "Vanderbilt University"
+    date: "Sep 2023"
+    type: "Online"
+
+  - name: "Kotlin Development"
+    issuer: "Meta"
+    date: "Oct 2023"
+    type: "Online"
+
+  - name: "Mobile Trailblazer"
+    issuer: "Funsol Technologies"
+    date: "Jul 2026"
+    type: "Work-based"
+
+achievements:
+  - name: "Standout Performance Award"
+    issuer: "Funsol Technologies"
+    date: "Sep 2026"
+    description: "Recognition for performance and contribution."
 
 languages:
+  - language: "Urdu"
+    proficiency: null
   - language: "English"
-    proficiency: "Fluent"
-  - language: "Spanish"
-    proficiency: "Intermediate"
+    proficiency: "Upper-intermediate"
 
 interests:
-  - "Machine Learning"
-  - "Cybersecurity"
-  - "Open Source Projects"
-  - "Digital Marketing"
-  - "Entrepreneurship"
+  - "Android Development"
+  - "Cricket"
+  - "Badminton"
+  - "Video Games"
+  - "Researching New Technologies"
 
 availability:
-  notice_period: "2 weeks"
-
-salary_expectations:
-  salary_range_usd: "90000 - 110000"
-
-self_identification:
-  gender: "Female"
-  pronouns: "She/Her"
-  veteran: "No"
-  disability: "No"
-  ethnicity: "Asian"
-
-legal_authorization:
-  eu_work_authorization: "Yes"
-  us_work_authorization: "Yes"
-  requires_us_visa: "No"
-  requires_us_sponsorship: "Yes"
-  requires_eu_visa: "No"
-  legally_allowed_to_work_in_eu: "Yes"
-  legally_allowed_to_work_in_us: "Yes"
-  requires_eu_sponsorship: "No"
-  canada_work_authorization: "Yes"
-  requires_canada_visa: "No"
-  legally_allowed_to_work_in_canada: "Yes"
-  requires_canada_sponsorship: "No"
-  uk_work_authorization: "Yes"
-  requires_uk_visa: "No"
-  legally_allowed_to_work_in_uk: "Yes"
-  requires_uk_sponsorship: "No"
-
-
-work_preferences:
+  notice_period: "1 month"
+  preferred_roles:
+    - "Junior Android Developer"
+    - "Android Developer"
+    - "Kotlin Multiplatform Developer"
+  preferred_location: "Remote or onsite"
+  current_location: "Rawalpindi, Pakistan"
+  open_to_relocation: "Maybe, depending on the offer"
   remote_work: "Yes"
   in_person_work: "Yes"
-  open_to_relocation: "Yes"
+
+salary_expectations:
+  salary_range_usd: null
+  expected_monthly_salary_usd: null
+
+work_authorization:
+  countries_authorized_to_work: null
+  requires_visa_sponsorship: null
+  sponsorship_details: null
+
+application_preferences:
   willing_to_complete_assessments: "Yes"
-  willing_to_undergo_drug_tests: "Yes"
   willing_to_undergo_background_checks: "Yes"
+  willing_to_undergo_drug_tests: "Prefer not to say"
+
+self_identification:
+  gender: "Male"
+  pronouns: null
+  veteran_status: null
+  disability_status: null
+  ethnicity: "Asian"
+
+additional_information:
+  employment_status: "Currently employed"
+  project_links:
+    road_rescue: null
+    software_update_2026: null
+    data_recovery_2026: null
+    photo_recovery_master: null
+    music_app: null
+    islamic_app: null
+    app_locker_pro: null
+  additional_notes: null
